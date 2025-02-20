@@ -1,0 +1,2 @@
+* text=auto eol=lf
+*.{jpg,png,heif,avff,gif} filter=lfs diff=lfs merge=lfs -text
