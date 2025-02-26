@@ -1,36 +1,42 @@
 {
-  "$schema": "https://raw.bgithub.xyz/CSES-org/CSES/refs/heads/main/cses.schema.json",
+    "$schema": "https://raw.bgithub.xyz/CSES-org/CSES/refs/heads/main/cses.schema.json",
   "version": 1,
   "subjects": [
     {
       "name": "起床"
     },
     {
-      "name": "干饭"
+      "name": "早餐"
     },
     {
-      "name": "出发前演讲+赶路"
+      "name": "出发上班"
     },
     {
-      "name": "工作安排"
+      "name": "到单位准备干活"
     },
     {
-      "name": "上班"
+      "name": "正式开始干活"
     },
     {
-      "name": "干午饭"
+      "name": "午餐"
+    },
+    {
+      "name": "继续干活"
     },
     {
       "name": "下午茶"
     },
     {
-      "name": "结束演讲+回校"
+      "name": "下班"
     },
     {
-      "name": "晚饭"
+      "name": "回学校"
     },
     {
-      "name": "休息"
+      "name": "晚餐"
+    },
+    {
+      "name": "回寝"
     },
     {
       "name": "睡觉"
@@ -38,49 +44,44 @@
   ],
   "schedules": [
     {
-      "name": "all-mon",
-      "weeks": "all",
+      "name": "工作日-周一",
       "enable_day": 1,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -88,23 +89,28 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
@@ -115,49 +121,44 @@
       ]
     },
     {
-      "name": "a2",
-      "weeks": "all",
+      "name": "工作日-周二",
       "enable_day": 2,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -165,23 +166,28 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
@@ -192,49 +198,44 @@
       ]
     },
     {
-      "name": "a3",
-      "weeks": "all",
+      "name": "工作日-周三",
       "enable_day": 3,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -242,23 +243,28 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
@@ -269,49 +275,44 @@
       ]
     },
     {
-      "name": "a4",
-      "weeks": "all",
+      "name": "工作日-周四",
       "enable_day": 4,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -319,23 +320,28 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
@@ -346,49 +352,44 @@
       ]
     },
     {
-      "name": "a5",
-      "weeks": "all",
+      "name": "工作日-周五",
       "enable_day": 5,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -396,23 +397,28 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
@@ -423,49 +429,44 @@
       ]
     },
     {
-      "name": "a6",
-      "weeks": "all",
+      "name": "工作日-周六",
       "enable_day": 6,
+      "weeks": "all",
       "classes": [
-        {
-          "subject": "睡觉",
-          "start_time": "00:00:00",
-          "end_time": "06:00:00"
-        },
         {
           "subject": "起床",
           "start_time": "06:00:00",
           "end_time": "07:30:00"
         },
         {
-          "subject": "干饭",
+          "subject": "早餐",
           "start_time": "07:30:00",
-          "end_time": "08:00:00"
+          "end_time": "08:10:00"
         },
         {
-          "subject": "出发前演讲+赶路",
-          "start_time": "08:00:00",
+          "subject": "出发上班",
+          "start_time": "08:10:00",
           "end_time": "08:30:00"
         },
         {
-          "subject": "工作安排",
+          "subject": "到单位准备干活",
           "start_time": "08:30:00",
           "end_time": "09:00:00"
         },
         {
-          "subject": "上班",
+          "subject": "正式开始干活",
           "start_time": "09:00:00",
           "end_time": "12:30:00"
         },
         {
-          "subject": "干午饭",
+          "subject": "午餐",
           "start_time": "12:30:00",
-          "end_time": "13:00:00"
+          "end_time": "13:30:00"
         },
         {
-          "subject": "上班",
-          "start_time": "14:00:00",
-          "end_time": "16:30:30"
+          "subject": "继续干活",
+          "start_time": "13:30:00",
+          "end_time": "16:30:00"
         },
         {
           "subject": "下午茶",
@@ -473,40 +474,33 @@
           "end_time": "16:40:00"
         },
         {
-          "subject": "上班",
+          "subject": "继续干活",
           "start_time": "16:40:00",
           "end_time": "19:30:00"
         },
         {
-          "subject": "结束演讲+回校",
+          "subject": "下班",
           "start_time": "19:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "subject": "回学校",
+          "start_time": "19:40:00",
           "end_time": "20:00:00"
         },
         {
-          "subject": "晚饭",
+          "subject": "晚餐",
           "start_time": "20:00:00",
-          "end_time": "20:30:00"
+          "end_time": "20:20:00"
         },
         {
-          "subject": "休息",
-          "start_time": "20:30:00",
+          "subject": "回寝",
+          "start_time": "20:20:00",
           "end_time": "23:00:00"
         },
         {
           "subject": "睡觉",
           "start_time": "23:00:00",
-          "end_time": "23:59:59"
-        }
-      ]
-    },
-    {
-      "name": "a7",
-      "weeks": "all",
-      "enable_day": 7,
-      "classes": [
-        {
-          "subject": "休息",
-          "start_time": "00:00:00",
           "end_time": "23:59:59"
         }
       ]
